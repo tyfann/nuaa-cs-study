@@ -1,0 +1,49 @@
+site_name: 南航CS学习指南
+site_author: tyfann
+
+theme:
+  name: material
+  language: zh
+  features:
+    - header.autohide
+    # - navigation.instant
+    # - navigation.expand
+    # - navigation.sections
+    - navigation.tracking
+    # - navigation.tabs
+    # - navigation.tabs.sticky
+    - navigation.top
+    # - navigation.indexes
+    - search.highlight
+    - search.share
+    - search.suggest
+    # - toc.integrate
+    - content.code.annotate
+  icon:
+    repo: fontawesome/brands/github
+  palette:
+    - media: "(prefers-color-scheme: light)" 
+      scheme: default
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+      primary: light blue
+      accent: teal
+    - media: "(prefers-color-scheme: dark)" 
+      scheme: slate
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+      primary: cyan
+      accent: lime
+
+repo_url: https://github.com/tyfann/nuaa-cs-study
+repo_name: nuaa-cs-study
+
+copyright: Copyright &copy; 2022-present <a href="https://github.com/tyfann" target="_blank" rel="noopener noreferrer">tyfann</a>
+
+nav:
+  - 前言: "index.md"
+  - 出国篇: "出国篇.md"
+  - 保研篇: "保研篇.md"
+  - 后记: "后记.md"
